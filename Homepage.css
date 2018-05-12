@@ -1,0 +1,22 @@
+h1 {
+    color: white;
+    font-size: 56px;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+}
+
+.btn-coast0 {
+    background-color: #d7b377;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url(images/Dog0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
