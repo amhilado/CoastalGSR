@@ -1,9 +1,6 @@
-.jumbotron {
-    height: 100vh;
-}
-
 h1 {
     color: white;
+    font-size: 56px;
 }
 
 p {
@@ -14,4 +11,12 @@ p {
 .btn-coast0 {
     background-color: #d7b377;
     color: white;
+}
+
+.jumbotron {
+    background-image: url(images/Dog0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
 }
