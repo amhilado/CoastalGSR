@@ -6,5 +6,41 @@
   border-radius: 50%;
 }
 
+.card {
+  border:0;
+}
+
+a.btn {
+  font-weight: 400;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.btn-lady {
+  background-color: #edabcb;
+  border-color: #edabcb;
+  color: white;
+
+}
+
+.btn-gent {
+  background-color: #89bce1;
+  border-color: #89bce1;
+  color: white;
+}
 
 
+a.btn:focus, a.btn:hover {
+  -moz-box-shadow:    inset 0px 0px 20px 2px #ffffff5b;
+  -webkit-box-shadow: inset 0px 0px 20px 2px #ffffff5b;
+  box-shadow:         inset 0px 0px 20px 2px #ffffff5b;
+  border-color: #ffffff5b;
+  color:white;
+}
+
+.card-img-top:hover {
+  transition: 0.5s;
+  border-radius: 20px;
+}
