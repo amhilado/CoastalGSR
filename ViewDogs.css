@@ -12,3 +12,40 @@
 .clearfix {
     overflow: auto;
 }
+
+.card-img-top{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  .card {
+    border:0;
+    background-color: transparent;
+  }
+  
+  div.btn {
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  
+  .btn-lady {
+    background-color: #edabcb;
+    border-color: #edabcb;
+    color: white;
+  }
+  
+  .btn-gent {
+    background-color: #89bce1;
+    border-color: #89bce1;
+    color: white;
+  }
+
+  .pointer {
+      cursor: default;
+  }
