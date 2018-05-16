@@ -1,0 +1,14 @@
+.container-athena {
+    float: left;
+    margin-left: 10%;
+}
+
+#carouselExampleIndicators {
+    float: right;
+    margin-right: 10%;
+  
+}
+
+.clearfix {
+    overflow: auto;
+}
