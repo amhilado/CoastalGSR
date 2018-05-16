@@ -71,3 +71,7 @@
   .pointer {
       cursor: default;
   }
+  
+  .carousel-inner {
+    height: 300px;
+  }
