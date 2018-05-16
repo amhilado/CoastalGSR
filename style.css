@@ -156,6 +156,10 @@ ul li a:hover {
     color: #89BCE1;
 }
 
+.blurb {
+    background-image: url(../images/vintage-concrete.png);
+    background-attachment: fixed;
+}
 
 @media (min-width: 992px) {
     ul > button {
