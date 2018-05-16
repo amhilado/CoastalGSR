@@ -112,6 +112,17 @@ nav .btn:focus, nav .btn:hover {
 
 h5 {
     color: #62929E;
+    font-family: 'Muli';
+    font-size: 1.25rem;
+}
+
+ 
+ul li a {
+    color: white;
+}
+
+ul li a:hover {
+    color: #89BCE1;
 }
 
 .social {
@@ -120,6 +131,14 @@ h5 {
 
 .footer-copyright {
     color: #62929E;
+}
+
+.footer-copyright a {
+    color: white;
+}
+
+.footer-copyright a:hover {
+    color: #89BCE1;
 }
 
 @media (min-width: 992px) {
