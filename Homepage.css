@@ -26,12 +26,12 @@
 
 .deck {
     height:400px;
-    border-radius: ;
     margin-bottom: 30px;
 }
 
 .red {
     background-color: rgba(98, 146, 158, 0.5);
+    border-radius: 50px 0 0 50px;
 }
 
 .red:hover, .red:focus {
@@ -59,6 +59,7 @@
 
 .yellow {
     background-color: rgba(213,137,111, 0.5);
+    border-radius: 0 50px 50px 0;
 }
 
 .yellow:hover, .yellow:focus {
@@ -120,53 +121,10 @@ a.dog:hover {
     text-decoration: none;
 }
 
-@media (min-width: 576px;) {
-    .dog1 {
-        position: absolute;
-        bottom: 10px;
-        left: 20px;
-        height: 430px;
-        z-index: 2;
-        
-    }
-    
-    .dog2 {
-        position: absolute;
-        bottom: 0px;
-        left: -50px;
-        height: 220px;
-        z-index: 2;
-        transform: scaleX(-1);
-    }
-    
-    .dog3 {
-        width: 161px;
-        position: absolute;
-        z-index: 2;
-        bottom: 20px;
-        left: 30px;
-        transform: scaleX(-1);
-    }
-    
-    .dog4 {
-        position: absolute;
-        bottom: 10px;
-        left: 80px;
-        height: 390px;
-        z-index: 2;
-    }
-
-    .deck {
-    height:400px;
-    border-radius: ;
-    margin-bottom: 30px;
-}
-}
-
-}
-
 .card { 
-    margin: 10px;
+    margin: 15px;
+    margin-bottom:30px;
+    border-radius: 25px;
 }
 .card-title {
     font-family: 'Muli';
@@ -178,12 +136,57 @@ a.dog:hover {
     font-size: 1rem;
 }
 
-.card-body {
-    background-color: 
-}
+/* .card-body {
+    background-color: ;
+} */
 
 .card-img-top {
     width: 286px;
     height: 250px;
+    border-radius: 25px 25px 0 0;
  }
+
+@media (max-width: 991px) {
+    .red {
+        border-radius: 50px 0 0 0;
+    }
+    .blue {
+        border-radius: 0 50px 0 0;
+    }
+    .green {
+        border-radius: 0 0 0 50px;
+    }
+    .yellow {
+        border-radius: 0 0 50px 0;
+    }
+}
+
+
+
+
+@media (max-width: 575px) {
+    .dog1, .dog2, .dog3, .dog4 {
+       display:none;
+        
+    }
+
+    .deck {
+    height:90px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    }
+
+    .red {
+        background-color: rgba(98, 146, 158, 1);
+    }
+    .blue {
+        background-color: rgba(143,182,162, 1);
+    }
+    .green {
+        background-color: rgba(218,183,133, 1);
+    }
+    .yellow {
+        background-color: rgba(213,137,111, 1);
+    }
+}
 
