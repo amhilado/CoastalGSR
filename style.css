@@ -136,8 +136,12 @@ ul li a:hover {
 }
 
 .social {
-    color:#62929E;
+    color:white;
     font-size: 3rem;
+}
+
+.social:hover {
+    color: #89BCE1;
 }
 
 .footer-copyright {
