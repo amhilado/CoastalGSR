@@ -106,6 +106,22 @@ nav .btn:focus, nav .btn:hover {
     border-bottom-right-radius: 25px;
 }
 
+.page-footer {
+    background-color: #16324f;
+}
+
+h5 {
+    color: #62929E;
+}
+
+.social {
+    color:#62929E;
+}
+
+.footer-copyright {
+    color: #62929E;
+}
+
 @media (min-width: 992px) {
     ul > button {
         margin-left: 20px;
