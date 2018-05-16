@@ -1,16 +1,13 @@
-h1 {
-    color: white;
-    font-size: 56px;
-}
-
-p {
-    font-family: 'Muli', sans-serif;
-    font-size: 20px;
-}
-
 .btn-coast0 {
     background-color: #d7b377;
     color: white;
+}
+
+.btn-coast0:hover {
+    -moz-box-shadow:    inset 0px 0px 20px 2px #0000005b;
+    -webkit-box-shadow: inset 0px 0px 20px 2px #0000005b;
+    box-shadow:         inset 0px 0px 20px 2px #0000005b;
+    border-color: #0000005b;
 }
 
 .jumbotron {
