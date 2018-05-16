@@ -98,16 +98,53 @@ nav .btn:focus, nav .btn:hover {
     padding: 0 0 0 0;
 }
 
+.logo {
+    position: fixed;
+    z-index:2001;
+    background-color:#62929E;
+    padding: 10px 20px 15px 10px;
+    border-bottom-right-radius: 25px;
+}
+
+.page-footer {
+    background-color: #16324f;
+}
+
+h5 {
+    color: #62929E;
+}
+
+.social {
+    color:#62929E;
+}
+
+.footer-copyright {
+    color: #62929E;
+}
+
 @media (min-width: 992px) {
     ul > button {
         margin-left: 20px;
         margin-top: 0;
         margin-bottom: 0;
     }
+
 }
 
 @media (max-width: 991px) {
     .nav-link {
         padding: 1rem 1rem;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar-brand::after {
+        content: "Coastal German \A Shepherd Rescue";
+        white-space: pre-wrap;
+        font-size: 20px;
+        float:right;
+        line-height: 1;
+        padding-top: 5px;
+        padding-left: 5px;
     }
 }
