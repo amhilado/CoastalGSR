@@ -42,7 +42,7 @@
 
 .red:hover, .red:focus {
     background-color: rgba(98, 146, 158, 1);
-    transition: 0.5s ease-out;
+    transition: 0.2s ease-out;
 }
 
 .blue {
@@ -51,7 +51,7 @@
 
 .blue:hover, .blue:focus {
     background-color: rgba(143,182,162,1);
-    transition: 0.5s ease-out;
+    transition: 0.2s ease-out;
 }
 
 .green {
@@ -60,7 +60,7 @@
 
 .green:hover, .green:focus {
     background-color: rgba(218,183,133,1);
-    transition: 0.5s ease-out;
+    transition: 0.2s ease-out;
 }
 
 .yellow {
@@ -70,7 +70,7 @@
 
 .yellow:hover, .yellow:focus {
     background-color: rgba(213,137,111,1);
-    transition: 0.5s ease-out;
+    transition: 0.2s ease-out;
 }
 
 .dog1 {
