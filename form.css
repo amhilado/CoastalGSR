@@ -1,0 +1,14 @@
+.statusBar{
+    padding-top: 8%;
+    padding-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.application{
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
