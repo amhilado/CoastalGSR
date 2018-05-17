@@ -1,37 +1,32 @@
 .statusBar{
     padding-top: 8%;
     padding-bottom: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
     justify-content: center;
-}
-
-.application{
-    justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 15px;
 }
 
 .btn-next{
     background-color: #62929E;
     border-color:#62929E;
     color: white;
-    float: right;
+    margin-bottom: 30px;
+}
+
+.btn-next:hover{
+    background-color: rgb(69, 104, 112);
+    border-color:rgb(69, 104, 112);
+    color: white;
 }
 
 .btn-outline-next{
-    background-color: #62929E;
+    background-color: transparent;
     border-color:#62929E;
-    color: white;
-    float: left;
+    color: #62929E;
+
 }
 
-.btn-submit{
-    background-color: #62929E;
-    border-color:#62929E;
-    color: white;
-    float: right;
+.btn-outline-next:hover{
+    border-color:rgb(69, 104, 112);
+    color:rgb(69, 104, 112);
 }
 
 .checkbox-inline{
@@ -40,4 +35,18 @@
 
 #option{
     margin-left: 10px;
+}
+
+.progress-bar {
+    background-color: #5cb85c;
+    border-radius: 50px;
+}
+
+.progress {
+    background-color: #5bc0de7c;
+    border-radius: 50px;
+}
+
+.page {
+    background-color: white;
 }
