@@ -4,6 +4,16 @@
     justify-content: center;
 }
 
+.progress-bar {
+    background-color: #5cb85c;
+    border-radius: 50px;
+}
+
+.progress {
+    background-color: #5bc0de7c;
+    border-radius: 50px;
+}
+
 .btn-next{
     background-color: #62929E;
     border-color:#62929E;
@@ -17,14 +27,13 @@
     color: white;
 }
 
-.btn-outline-next{
+.btn-outline-previous{
     background-color: transparent;
     border-color:#62929E;
     color: #62929E;
-
 }
 
-.btn-outline-next:hover{
+.btn-outline-previous:hover{
     border-color:rgb(69, 104, 112);
     color:rgb(69, 104, 112);
 }
@@ -37,14 +46,8 @@
     margin-left: 10px;
 }
 
-.progress-bar {
-    background-color: #5cb85c;
-    border-radius: 50px;
-}
-
-.progress {
-    background-color: #5bc0de7c;
-    border-radius: 50px;
+#description{
+    margin-top: 15px;
 }
 
 .page {
