@@ -19,3 +19,25 @@
     color: white;
     float: right;
 }
+
+.btn-outline-next{
+    background-color: #62929E;
+    border-color:#62929E;
+    color: white;
+    float: left;
+}
+
+.btn-submit{
+    background-color: #62929E;
+    border-color:#62929E;
+    color: white;
+    float: right;
+}
+
+.checkbox-inline{
+    margin-left: 10px;
+}
+
+#option{
+    margin-left: 10px;
+}
