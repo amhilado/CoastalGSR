@@ -159,7 +159,7 @@ a.dog:hover {
 }
 
 .events { 
-    padding: 30px;
+    padding: 50px;
     text-align: left;
 }
 
@@ -170,17 +170,31 @@ a.dog:hover {
 
 h3 {
     text-align: center;
+
+    color:#62929E;
+    font-weight: bold;
+    font-family: 'Do Hyeon';
 }
 
 .vl {
     border-left: 3px dotted black;
     height: 400px;
+    
 }
 
-.shopImage { 
-    align-content: center;
-    padding: 30px;
+.btn-next{
+    background-color: #62929E;
+    border-color:#62929E;
+    color: white;
+    margin-bottom: 30px;
 }
+
+.btn-next:hover{
+    background-color: rgb(69, 104, 112);
+    border-color:rgb(69, 104, 112);
+    color: white;
+}
+
 
 @media (max-width: 991px) {
     .red {
