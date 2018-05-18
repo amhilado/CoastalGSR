@@ -159,12 +159,12 @@ a.dog:hover {
 }
 
 .events { 
-    padding: 50px;
+    
     text-align: left;
 }
 
 .text1 {
-    color: red;
+    
     font-weight: bold;
 }
 
@@ -177,8 +177,8 @@ h3 {
 }
 
 .vl {
-    border-left: 3px dotted black;
-    height: 400px;
+    border-left: 3px dotted grey;
+    height: 300px;
     
 }
 
@@ -186,13 +186,17 @@ h3 {
     background-color: #62929E;
     border-color:#62929E;
     color: white;
-    margin-bottom: 30px;
+    margin: 20px;
 }
 
 .btn-next:hover{
     background-color: rgb(69, 104, 112);
     border-color:rgb(69, 104, 112);
     color: white;
+}
+
+.shopImg {
+    border-radius: 25px;
 }
 
 
