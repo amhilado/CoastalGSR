@@ -2,10 +2,6 @@
     margin-top: 45px;
 }
   
-.d-block {
-    max-height: 300px;
-    width: 550px;
-}
 
 .card-text{
     padding: 30px;
@@ -26,8 +22,6 @@
     background-color: #62929E;
     border-color: #62929E;
     color: white;
-    float: right;
-    margin-top: 10px;
 }
 
 .btn-ask:hover{
@@ -83,16 +77,6 @@ h2 {
       cursor: default;
   }
   
-  .carousel-inner {
-    height: 300px;
-    /* width:auto; */
-    /*background-size: contain;*/
-  }
-
-  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    width: 100%;
- }
-  
   #info {
       margin-left: 5%;
       margin-right: 5%;
@@ -138,14 +122,12 @@ h2 {
 }
 
 
-#button-ask {
-    clear: both;
-    margin-right: 10%;
-}
-
 
 h3 {
     font-size: 1.5em;
     color: #62929E;
 }
 
+.d-block {
+    max-width: 100%;
+}
