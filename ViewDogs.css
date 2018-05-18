@@ -1,5 +1,5 @@
 .container-fluid .row{
-    padding: 45px;
+    margin-top: 45px;
 }
   
 .d-block {
@@ -36,6 +36,9 @@
     color: white;
 }
 
+h2 {
+    margin-bottom: 15px;
+}
 
 .clearfix {
     overflow: auto;
@@ -140,21 +143,9 @@
     margin-right: 10%;
 }
 
-#about-me {
-    width: 40%;
-}
 
-#about-me ul {
-    padding: 0;
-}
-
-#about-me ul > li {
+h3 {
     font-size: 1.5em;
     color: #62929E;
-}
-
-#animal-health {
-    font-size: .9em;
-    color: black;
 }
 

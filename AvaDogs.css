@@ -45,3 +45,13 @@ a.btn:focus, a.btn:hover {
   transition: 0.5s;
   border-radius: 20px;
 }
+
+.header {
+  padding: 50px;
+}
+
+h1 {
+  font-family: 'Do Hyeon', sans-serif;
+  text-transform: uppercase;
+  color: #62929E;
+}
