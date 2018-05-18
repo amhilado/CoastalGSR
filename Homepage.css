@@ -1,25 +1,36 @@
 .btn-coast0 {
-    background-color: #89BCE1;
-    border-color: #89BCE1;
-    color: white;
+    background-color: transparent;
+    border-color: #16324f;
+    border-width: 2px;
+    color: #16324f;
 }
 
 .btn-coast0:hover {
-    -moz-box-shadow:    inset 0px 0px 20px 2px #0000005b;
-    -webkit-box-shadow: inset 0px 0px 20px 2px #0000005b;
-    box-shadow:         inset 0px 0px 20px 2px #0000005b;
-    border-color: #0000005b;
+    background-color: #16324f3f;
 }
 
 .jumbotron {
-    background-image: url(images/Dog0.jpg);
+    background-image: url(images/dog4_C.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 70vh;
     position: relative;
     z-index: 3;
     margin-bottom: 0;
+}
+.layer {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-left {
+    position: absolute;
+    top:50%;
 }
 
 .blurb {
