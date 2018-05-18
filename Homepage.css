@@ -177,9 +177,7 @@ h3 {
 }
 
 .vl {
-    border-left: 3px dotted grey;
-    height: 300px;
-    
+    border-right: 3px dotted grey; 
 }
 
 .btn-next{
@@ -199,6 +197,12 @@ h3 {
     border-radius: 25px;
 }
 
+.shop {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 
 @media (max-width: 991px) {
     .red {
@@ -213,6 +217,13 @@ h3 {
     .yellow {
         border-radius: 0 0 50px 0;
     }
+
+
+    .vl {
+        border-right: 0px dotted grey;
+        border-bottom: 3px dotted grey; 
+    }
+
 }
 
 
@@ -242,5 +253,7 @@ h3 {
     .yellow {
         background-color: rgba(213,137,111, 1);
     }
+
+
 }
 
