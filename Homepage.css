@@ -164,17 +164,32 @@ a.dog:hover {
 }
 
 .text1 {
-    color: red;
+    
     font-weight: bold;
 }
 
 h3 {
     text-align: center;
+    color:#62929E;
+
 }
 
 .vl {
-    border-left: 3px dotted black;
+    border-left: 3px dotted grey;
     height: 400px;
+}
+
+.btn-next{
+    background-color: #62929E;
+    border-color:#62929E;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn-next:hover{
+    background-color: rgb(69, 104, 112);
+    border-color:rgb(69, 104, 112);
+    color: white;
 }
 
 .shopImage { 
