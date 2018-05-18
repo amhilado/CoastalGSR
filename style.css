@@ -135,6 +135,10 @@ ul li a:hover {
     color: #89BCE1;
 }
 
+footer {
+    padding-bottom: 100px;
+}
+
 .social {
     color:white;
     font-size: 3rem;
