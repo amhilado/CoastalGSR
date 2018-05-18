@@ -135,6 +135,10 @@ ul li a:hover {
     color: #89BCE1;
 }
 
+footer {
+    padding-bottom: 100px;
+}
+
 .social {
     color:white;
     font-size: 3rem;
@@ -154,6 +158,11 @@ ul li a:hover {
 
 .footer-copyright a:hover {
     color: #89BCE1;
+}
+
+.blurb {
+    background-image: url(images/vintage-concrete.png);
+    background-attachment: fixed;
 }
 
 @media (min-width: 992px) {
