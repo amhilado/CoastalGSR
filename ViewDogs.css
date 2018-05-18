@@ -28,7 +28,14 @@
     color: white;
     float: right;
     margin-top: 10px;
-  }
+}
+
+.btn-ask:hover{
+    background-color: rgb(69, 104, 112);
+    border-color:rgb(69, 104, 112);
+    color: white;
+}
+
 
 .clearfix {
     overflow: auto;
@@ -100,6 +107,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
 
   .btn-sponsor {
     background-color: #546A7B;
