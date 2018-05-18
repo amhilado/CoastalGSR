@@ -142,15 +142,45 @@ a.dog:hover {
     font-size: 1rem;
 }
 
-/* .card-body {
-    background-color: ;
-} */
+.Featured {
+    padding: 50px;
+}
 
 .card-img-top {
     width: 286px;
     height: 250px;
     border-radius: 25px 25px 0 0;
  }
+
+.EventsShop { 
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.events { 
+    padding: 30px;
+    text-align: left;
+}
+
+.text1 {
+    color: red;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+.vl {
+    border-left: 3px dotted black;
+    height: 400px;
+}
+
+.shopImage { 
+    align-content: center;
+    padding: 30px;
+}
 
 @media (max-width: 991px) {
     .red {
